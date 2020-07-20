@@ -3,10 +3,8 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <array>
-
-
+#include <fstream>
 using namespace std;
-
 /*	
 _________________________________________________________________________
 
@@ -123,6 +121,36 @@ MAIN
 _________________________________________________________________________
 */
 int main() {
+	string* ListFilePath = new string("resources/data/listOfQuizzes.xml");
+
+	cout << "WHICH QUIZ LIST FILE DO YOU WISH TO USE? DEFAULT IS: "<<endl;
+	cout << *ListFilePath << endl << endl;;
+	cout << "PRESS 0 TO USE DEFAULT. ELSE, TYPE THE FILEPATH OF THE LIST YOU WISH TO USE" << endl;
+	cout << "IF INVALID FILE ENTERED, DEFAULT WILL BE USED" << endl;
+
+	getline(cin, *ListFilePath);
+
+	ifstream checkFile;
+	checkFile.open(*ListFilePath);
+	if (checkFile && !(*ListFilePath == "0")) 
+	{
+		cout << "FILE EXISTS" << endl;
+	}
+	else {
+		cout << "USING DEFAULT FILE" << endl;
+		*ListFilePath = "resources/data/listOfQuizzes.xml";
+	}
+
+	listOfQuizzes = QuizXMLFile(*ListFilePath);
+	if (listOfQuizzes.getProp(1, "?tag") != "listFile") 
+	{
+		cout << "NOT A LIST FILE. REVERTING TO DEFAULT LIST FILE" << endl;
+		listOfQuizzes = QuizXMLFile("resources/data/listOfQuizzes.xml");
+
+	}
+
+	delete ListFilePath;
+
 	string* answer = new string("0");
 	cout << "WHICH WOULD YOU LIKE TO DO? \n";
 	cout << "PRESS 0 TO PLAY EXISTING QUIZZES (GUI)\n" ;
@@ -767,10 +795,9 @@ SETLENGTH:
 
 	}
 	delete anAnswer;
-	
+
 	//turn into xml file, including referencing in list
 	Connection::questionVectorToQuizFile(*questions,*topic,"resources/data/",listOfQuizzes);
-
 
 	delete questions;
 	delete topic;

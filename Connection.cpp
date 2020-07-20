@@ -191,7 +191,7 @@ void Connection::recordInList(const string& topic, int length, const string& fil
 	listLines.push_back("<quiz topic=\"" + topic + "\" length =\"" + to_string(length) + "\" filepath=\"" + filepath + "\"/>");
 
 	//re-add close tag
-	listLines.push_back("</root>");
+	listLines.push_back("</listFile>");
 
 	QuizXMLFile::writeLinesToFile(listLines, list.getFilePath(), false);
 }

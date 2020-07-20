@@ -20,6 +20,8 @@ public:
 	QuizXMLFile(const string& filePath);
 	//destructor
 	~QuizXMLFile();
+	//QuizXMLFile(QuizXMLFile& originalFile);
+	QuizXMLFile& operator =(const QuizXMLFile& originalFile);
 
 	//get a copy of the lines  in this file
 	vector<string> getLines();

@@ -19,11 +19,24 @@ QuizXMLFile::QuizXMLFile(const string& filePath)
 	}
 }
 
+QuizXMLFile& QuizXMLFile::operator=(const QuizXMLFile& originalFile)
+{
+	// TODO: insert return statement here
+	string* temp = new string(*originalFile.filePath);
+	QuizXMLFile q(*temp);
+	delete temp;
+	return q;
+}
+
 QuizXMLFile::~QuizXMLFile()
 {
 	delete Lines;
 	delete filePath;
 }
+
+
+
+
 
 vector<string> QuizXMLFile::getLines()
 {
