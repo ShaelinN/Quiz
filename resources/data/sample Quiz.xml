@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quiz topic="general trivia" length="10">
+<question id="01" text="which is the largest measurement?">
+<answer type="correct" text="kilometer"/>
+<answer type="wrong" text="nanometer"/>
+<answer type="wrong" text="centimeter"/>
+<answer type="wrong" text="meter"/>
+</question>
+<question id="02" text="what is the capital of Australia?">
+<answer type="correct" text="Canberra"/>
+<answer type="wrong" text="Sydney"/>
+<answer type="wrong" text="Melbourne"/>
+<answer type="wrong" text="Brisbane"/>
+</question>
+<question id="03" text="Which of the following artists painted the Sistine Chapel ceiling?">
+<answer type="correct" text="Michaelangelo"/>
+<answer type="wrong" text="Picasso"/>
+<answer type="wrong" text="Van Gogh"/>
+<answer type="wrong" text="Leonardo da Vinci"/>
+</question>
+<question id="04" text="what are the names of Mars' two moons?">
+<answer type="correct" text="Phobos and Deimos"/>
+<answer type="wrong" text="Io and Europa"/>
+<answer type="wrong" text="Titan and Hyperion"/>
+<answer type="wrong" text="Triton and Thalassa"/>
+</question>
+<question id="05" text="Jaguars are indigeneous to which of the following continents:">
+<answer type="correct" text="South America"/>
+<answer type="wrong" text="Europe"/>
+<answer type="wrong" text="Africa"/>
+<answer type="wrong" text="Asia"/>
+</question>
+<question id="06" text="which of these norse gods is associated with war?">
+<answer type="correct" text="Tyr"/>
+<answer type="wrong" text="Loki"/>
+<answer type="wrong" text="Thor"/>
+<answer type="wrong" text="Baldr"/>
+</question>
+<question id="07" text="what is the color of night?">
+<answer type="correct" text="Sanguine, my brother"/>
+<answer type="wrong" text="Silence, my brother"/>
+<answer type="wrong" text="Sublime, my brother"/>
+<answer type="wrong" text="Innocence, my brother"/>
+</question>
+<question id="08" text="When was Julius Caesar assassinated?">
+<answer type="correct" text="15 March, 44 BC"/>
+<answer type="wrong" text="10 January, 49 BC"/>
+<answer type="wrong" text="19 August, 14 AD"/>
+<answer type="wrong" text="28 September, 48 BC"/>
+</question>
+<question id="09" text="what is the lightest element in the periodic table?">
+<answer type="correct" text="Hydrogen"/>
+<answer type="wrong" text="Helium"/>
+<answer type="wrong" text="Oxygen"/>
+<answer type="wrong" text="Nitrogen"/>
+</question>
+<question id="10" text="Which of the following programming languages is dynamically typed?">
+<answer type="correct" text="Javascript"/>
+<answer type="wrong" text="Java"/>
+<answer type="wrong" text="C++"/>
+<answer type="wrong" text="C#"/>
+</question>
+</quiz>

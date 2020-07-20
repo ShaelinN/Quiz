@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz topic="History" length="20">
+<question id="1" text="Which Persian empire did Alexander the Great defeat?">
+<answer type="correct" text="Achaemenid"/>
+<answer type="wrong" text="Sassanian"/>
+<answer type="wrong" text="Khwarazmian"/>
+<answer type="wrong" text="Safavid"/>
+</question>
+<question id="2" text="the city of London was founded by:">
+<answer type="correct" text="the Romans"/>
+<answer type="wrong" text="the Anglo Saxons"/>
+<answer type="wrong" text="the Normans"/>
+<answer type="wrong" text="the Picts"/>
+</question>
+<question id="3" text="the Opium Wars were between which two powers?">
+<answer type="correct" text="British Empire and China"/>
+<answer type="wrong" text="British Empire and Egypt"/>
+<answer type="wrong" text="Russian Empire and Ottoman Empire"/>
+<answer type="wrong" text="United States and Cherokee Nation"/>
+</question>
+<question id="4" text="Which pre-Columbian civilization held the largest empire?">
+<answer type="correct" text="the Inca"/>
+<answer type="wrong" text="the Aztecs"/>
+<answer type="wrong" text="the Toltecs"/>
+<answer type="wrong" text="the Maya"/>
+</question>
+<question id="5" text="Which of the following was an Axis power in World War 2?">
+<answer type="correct" text="Japan"/>
+<answer type="wrong" text="Soviet Union"/>
+<answer type="wrong" text="France"/>
+<answer type="wrong" text="Great Britain"/>
+</question>
+<question id="6" text="Mansa Musa ruled over which African Kingdom?">
+<answer type="correct" text="Mali"/>
+<answer type="wrong" text="Ghana"/>
+<answer type="wrong" text="Benin"/>
+<answer type="wrong" text="Songhai"/>
+</question>
+<question id="7" text="When was the Dutch Cape Colony founded?">
+<answer type="correct" text="1652"/>
+<answer type="wrong" text="1812"/>
+<answer type="wrong" text="1902"/>
+<answer type="wrong" text="1492"/>
+</question>
+<question id="8" text="Who was the first European explorer to set foot in the Americas?">
+<answer type="correct" text="Leif Erikkson"/>
+<answer type="wrong" text="Christopher Columbus"/>
+<answer type="wrong" text="Amerigo Vespucci"/>
+<answer type="wrong" text="James Cook"/>
+</question>
+<question id="9" text="The Punic Wars were fought between:">
+<answer type="correct" text="Rome and Carthage"/>
+<answer type="wrong" text="Rome and Epirus"/>
+<answer type="wrong" text="Rome and Egypt"/>
+<answer type="wrong" text="Rome and Dacia"/>
+</question>
+<question id="10" text="The most deadly Pandemic in human history was:">
+<answer type="correct" text="the Black Death"/>
+<answer type="wrong" text="The Spanish Flu"/>
+<answer type="wrong" text="HIV"/>
+<answer type="wrong" text="Smallpox"/>
+</question>
+<question id="11" text="what was the native language of Cleopatra VII?">
+<answer type="correct" text="Greek"/>
+<answer type="wrong" text="Coptic"/>
+<answer type="wrong" text="Aramaic"/>
+<answer type="wrong" text="Latin"/>
+</question>
+<question id="12" text="who invented the first firearms?">
+<answer type="correct" text="the Chinese"/>
+<answer type="wrong" text="the Arabs"/>
+<answer type="wrong" text="the Ottoman Turks"/>
+<answer type="wrong" text="the Byzantines"/>
+</question>
+<question id="13" text="Napoleon Bonaparte was crowned Emperor on what date:">
+<answer type="correct" text="2 December 1804"/>
+<answer type="wrong" text="14 July 1798"/>
+<answer type="wrong" text="18 June 1815"/>
+<answer type="wrong" text="Unknown date"/>
+</question>
+<question id="14" text="Temujin was the birth name of which great warlord?">
+<answer type="correct" text="Genghis Khan"/>
+<answer type="wrong" text="Attila the Hun"/>
+<answer type="wrong" text="Tokugawa Ieyasu"/>
+<answer type="wrong" text="Oda Nobunaga"/>
+</question>
+<question id="15" text="Who invented the modern doughnut?">
+<answer type="correct" text="Hanson Gregory"/>
+<answer type="wrong" text="Raffaele Esposito"/>
+<answer type="wrong" text="Italo Marchiony"/>
+<answer type="wrong" text="Vernon Rudolph"/>
+</question>
+<question id="16" text="which country won the first FIFA World Cup?">
+<answer type="correct" text="Uruguay"/>
+<answer type="wrong" text="Brazil"/>
+<answer type="wrong" text="Argentina"/>
+<answer type="wrong" text="Yugoslavia"/>
+</question>
+<question id="17" text="Admiral Lord Nelson's Fladship at the Battle of Trafalgar was:">
+<answer type="correct" text="HMS Victory"/>
+<answer type="wrong" text="HMS Belfast"/>
+<answer type="wrong" text="Temeraire"/>
+<answer type="wrong" text="HMS Caledonia"/>
+</question>
+<question id="18" text="On which date did Ludwig von Beethoven make his debut performance?">
+<answer type="correct" text="29 March 1795"/>
+<answer type="wrong" text="17 December 1770"/>
+<answer type="wrong" text="26 March 1827"/>
+<answer type="wrong" text="19 October 1776"/>
+</question>
+<question id="19" text="Physician Ignaz Semmelweis is most famous for:">
+<answer type="correct" text="discovering the importance of handwashing in a surgical environment"/>
+<answer type="wrong" text="discovering the vaccine for smallpox"/>
+<answer type="wrong" text="performing the first kidney transplant"/>
+<answer type="wrong" text="discovering a treatment for bubonic plague"/>
+</question>
+<question id="20" text="in what year did California become a US state?">
+<answer type="correct" text="1850"/>
+<answer type="wrong" text="1845"/>
+<answer type="wrong" text="1776"/>
+<answer type="wrong" text="1889"/>
+</question>
+</quiz>

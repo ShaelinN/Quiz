@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<quiz topic="general trivia" length ="10" filepath="resources/data/sample Quiz.xml"/>
+<quiz topic="History" length ="20" filepath="resources/data/History.xml"/>
+<quiz topic="Science" length ="10" filepath="resources/data/Science.xml"/>
+</root>

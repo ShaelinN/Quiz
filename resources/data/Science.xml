@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz topic="Science" length="10">
+<question id="1" text="What is the heaviest element that fusion in the sun can produce">
+<answer type="correct" text="iron"/>
+<answer type="wrong" text="oxygen"/>
+<answer type="wrong" text="helium"/>
+<answer type="wrong" text="uranium"/>
+</question>
+<question id="2" text="which of these elements is the most reactive?">
+<answer type="correct" text="flourine"/>
+<answer type="wrong" text="oxygen"/>
+<answer type="wrong" text="nitrogen"/>
+<answer type="wrong" text="chlorine"/>
+</question>
+<question id="3" text="at what temperature does ethanol freeze?">
+<answer type="correct" text="-114,1 celcius"/>
+<answer type="wrong" text="-182 celsius"/>
+<answer type="wrong" text="-123,5 celsius"/>
+<answer type="wrong" text="-126 celsius"/>
+</question>
+<question id="4" text="the closest star system to ours is:">
+<answer type="correct" text="Alpha Centauri"/>
+<answer type="wrong" text="Epsilon Eridani"/>
+<answer type="wrong" text="Polaris"/>
+<answer type="wrong" text="Sirius"/>
+</question>
+<question id="5" text="the scientific name of the Eastern Gorilla is:">
+<answer type="correct" text="Gorilla Beringei"/>
+<answer type="wrong" text="Gorilla gorilla"/>
+<answer type="wrong" text="Pan troglodytes"/>
+<answer type="wrong" text="Pongo pygmaeus"/>
+</question>
+<question id="6" text="The current geological epoch is:">
+<answer type="correct" text="Holocene"/>
+<answer type="wrong" text="Pleistocene"/>
+<answer type="wrong" text="Pliocene"/>
+<answer type="wrong" text="Miocene"/>
+</question>
+<question id="7" text="Which order of insects contains ants, bees and wasps?">
+<answer type="correct" text="Hymenoptera"/>
+<answer type="wrong" text="Blattodea"/>
+<answer type="wrong" text="Diptera"/>
+<answer type="wrong" text="Lepidoptera"/>
+</question>
+<question id="8" text="the weakest of the fundemental forces of nature is:">
+<answer type="correct" text="gravitational force"/>
+<answer type="wrong" text="electromagnetic force"/>
+<answer type="wrong" text="weak nuclear force"/>
+<answer type="wrong" text="strong nuclear force"/>
+</question>
+<question id="9" text="hydrogen bombs produe immense amounts of energy through:">
+<answer type="correct" text="nuclear fusion"/>
+<answer type="wrong" text="nuclear fission"/>
+<answer type="wrong" text="chemical oxidation"/>
+<answer type="wrong" text="chemical reduction"/>
+</question>
+<question id="10" text="Which blood type is known as the universal donor?">
+<answer type="correct" text="O-"/>
+<answer type="wrong" text="AB+"/>
+<answer type="wrong" text="A"/>
+<answer type="wrong" text="B"/>
+</question>
+</quiz>
